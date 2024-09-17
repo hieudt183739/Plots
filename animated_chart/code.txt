@@ -1,0 +1,2 @@
+Code tại: https://python-graph-gallery.com/342-animation-on-3d-plot/
+code bài này: https://colab.research.google.com/drive/1rM9DeNyEWdY5woRHUVKxnYNYAesZAaaG#scrollTo=JcZGfUu0antY

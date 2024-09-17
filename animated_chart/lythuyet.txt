@@ -1,0 +1,11 @@
+Có thể sử dụng hàm Plot_Trisurf() để vẽ mô hình 3D. 
+plot_trisurf(x,y,z)
+Tuy nhiên cần lưu ý các điều sau, cái này cũng khó giải thích, giải thích bằng ví dụ sẽ dễ hiểu hơn:
+Nếu muốn vẽ 1 đồ thị 3D với  x: [0,1,2,3], y[0,1,2,3], z=x+y
+thì phải biến tính:
+z1= x[0] + y[0]            z4= x[1] + y[0]           z7=x[2] + y[0]
+z2= x[0] + y[1]            z5= x[1] + y[1]           z8=x[2] + y[1]
+z3= x[0] + y[2]            z6= x[1] + y[2]           z9=x[2] + y[2]
+
+===> có nghĩa là phải tính z với tất cả các cặp giá trị có thể có của (x,y)
+
